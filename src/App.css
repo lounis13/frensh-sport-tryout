@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+* {
+  font-family: Montserrat, serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  background-image: url("images/back.jpg");
+
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-container, .edit-contact-container{
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-edit-contrat {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 5px 50px;
+}
+.form-edit-contrat h1 {
+  align-self: center;
+}
+
+.form-edit-contrat input {
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
   color: white;
+  border-bottom: 1px solid white;
+  padding: 23px;
+  height: 20px;
+  width: 400px;
+  font-size: 18px;
+}
+.form-edit-contrat label {
+  margin-top: 25px;
+  margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-add {
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: 75px;
+}
+.btn-add:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
 }

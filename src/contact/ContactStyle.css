@@ -1,0 +1,117 @@
+
+.big-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background: rgba(1, 1, 1, 0.1);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.big-title img{
+    margin-bottom: 10px;
+    height : 75px;
+}
+.serch-input {
+    margin: 5% 0;
+    height: 20px;
+    width: 450px;
+    font-size: 18px;
+    padding: 25px;
+    border-radius: 9px;
+    background: rgba(243, 241, 241, 0.3);
+    border: none;
+    color: white;
+}
+
+.table-contact {
+    margin: 0 10%;
+    box-shadow: 1px 1px 10px;
+    width: 80%;
+    padding: 2% 5%;
+    text-align: left;
+}
+
+.table-contact th {
+    padding: 15px 0;
+    border-bottom: 5px solid rgba(195, 202, 179, 0.5);
+}
+
+
+.table-contact td {
+    padding: 13px;
+    border-bottom: 2px solid rgba(183, 236, 164, 0.5);
+}
+
+.link-to-add {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: transparent;
+    margin-bottom: 10px;
+}
+.link-to-add:hover {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.link-to-add img {
+    width: 100px;
+}
+
+.link-to-add button {
+    background: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    border: transparent;
+    margin-bottom: 20px;
+}
+
+.link-to-add button:hover {
+    cursor: pointer;
+}
+
+.pop-up-edit {
+    background-image: url("/src/images/back-add.jpg");
+    background-size: 100% 100%;
+    margin-top: 5%;
+    padding: 0 25px;
+}
+
+.btn-update {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 0;
+    color: white;
+}
+.td-update {
+    text-align: center;
+}
+
+.td-update:hover {
+    cursor: pointer;
+}
+
+.btn-update:hover {
+    cursor: pointer;
+}
+.btn-cancel {
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    margin: 0;
+    align-self: flex-start;
+}
+
+.confirm-delete button {
+    margin: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.5);
+}
